@@ -1,0 +1,207 @@
+.leftbarContainer {
+          flex: 3;
+          background: var(--grey);
+          font-family: "Poppins", sans-serif;
+          border-radius: 10px;
+
+}
+
+.leftbarWrapper {
+          padding: 20px 10px;
+}
+
+
+.biz-detail {
+          margin: 30px 0;
+}
+
+.user {
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+}
+
+.user-img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          object-fit: cover;
+          cursor: pointer;
+}
+
+.user-detail h2 {
+          margin-top: 5px;
+          margin-bottom: 0;
+}
+
+.user-detail small {
+          margin-top: 0;
+}
+
+.menu {
+          cursor: pointer;
+}
+
+.prodet {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          background: var(--white-bg);
+          padding: 6px 10px;
+          border-radius: 10px;
+}
+
+.info p {
+          font-size: 15px;
+}
+
+.prodet h5 {
+          color: var(--main-color);
+          font-weight: 600;
+          font-size: 20px;
+}
+
+.mate {
+          background: var(--main-color);
+          display: flex;
+          align-self: center;
+          justify-self: center;
+          padding: 1px;
+          border-radius: 5px;
+          color: var(--white-bg);
+          cursor: pointer;
+}
+
+.analytic .text {
+          display: flex;
+          justify-content: space-between;
+          color: var(--text-grey);
+}
+
+.analytic h4 {
+          color: var(--main-color);
+}
+
+.calender {
+          margin: 30px 0;
+          padding: 10px;
+}
+          
+.cal-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap:15px;
+
+          /* display: flex;
+          justify-content: space-between;
+          height: 100%; */
+}
+
+.day {
+          text-align: center;
+          background: var(--white-bg);
+          height: 70px;
+          width: 40px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-end;
+          border-radius: 10px;
+          padding: 7px;
+          color: #28231d;
+          font-size: 12px;
+}
+
+.tomove {
+          position: relative;
+          /* text-align: center; */
+          width: 40px;
+}
+
+/* .middle {
+          padding: 20px;
+          border-radius: 10px;
+} */
+
+.middle {
+          position: absolute;
+          top: -25px;
+          left: 0;
+          background: var(--white-bg);
+          width: 40px;
+          height: 50px;
+          border-radius: 10px 10px 0 0;
+}
+.week .days {
+          display: flex;
+          justify-content: space-between;
+          color: #28231d;
+          font-size: 12px;
+          margin-bottom: 15px;
+}
+
+.week .date {
+          display: flex;
+          justify-content: space-between;
+          color: var(--color-dark);
+          font-weight: 600;
+          font-size: 10px;
+}
+
+.audit {
+          margin: 30px 0;
+}
+
+.audit .text {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          color: var(--text-grey);          
+}
+
+.audit h4 {
+          color: var(--main-color);
+}
+
+.cal {
+          font-size: 10px;
+          color: #28231d;
+          background: var(--white-bg);
+          padding: 4.5px 8px;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+}
+
+.list {
+          font-size: 15px !important;
+          color: #28231d;
+          padding-left: 5px;
+}
+
+
+.percentage {
+          margin: 30px 0;
+}
+
+.percentage h4 {
+          color: var(--main-color);
+}
+
+.percentage p {
+          color: #28231d;
+}
+
+.percentage .long {
+          background: var(--bg-color);
+          width: 90%;
+          height: 5.5px;
+          border-radius: 10px;
+}
+
+.long .short {
+          background: var(--color-dark);
+          width: 50%;
+          height: 5.5px;
+          border-radius: 10px;
+}
